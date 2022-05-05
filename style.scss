@@ -67,7 +67,7 @@
                 font-size: 2rem;
                 line-height: 2rem;
                 text-align: center;
-                align-self: flex-end;
+                align-self: center;
                 margin-bottom: 10rem;
                 letter-spacing: -0.015em;
                 color: #f1f1f1;
@@ -76,10 +76,11 @@
                 display: flex;
                 align-items: center;
                 text-align: center;
-                align-self: flex-end;
+                align-self: center;
                 position: absolute;
                 padding: 25px 20px 25px 25px;
-                margin-bottom: 15rem;
+                // margin-bottom: 15rem;
+                margin-top: 50px;
                 border-radius: 50%;
                 img {
                     width: 30px;
@@ -175,17 +176,18 @@
         .card-content {
             display: flex;
             flex-direction: column;
-            width: 80%;
+            width: 100%;
             margin: 0 auto;
             // border: solid blue 3px;
-            // padding: 80px;
+             padding-left: 50px;
+             padding-right: 50px;
             .card-top {
                 display: flex;
                 // justify-content: center;
                 // align-items: center;
                 width: 100%;
                 flex-wrap: wrap;
-                padding: 80px;
+                padding-right: 0px;
                 .card-img {
                     //      display: flex;
                     // justify-content: center;
@@ -194,7 +196,7 @@
 
                     max-width: 50%;
                     img {
-                        max-width: 1000px;
+                        max-width: 800px;
 
                         min-width: 300px;
                     }
@@ -207,7 +209,7 @@
                     justify-content: center;
                     align-items: center;
                     // border: solid red 3px;
-                    padding-left: 84px;
+                    // padding-left: 84px;
                     h1 {
                         padding-bottom: 24px;
                         align-self: flex-start;
@@ -216,6 +218,7 @@
                         font-weight: 700;
                         font-size: 24px;
                         line-height: 36px;
+                        margin-left: 120px;
                         /* identical to box height, or 150% */
 
                         letter-spacing: -0.015em;
@@ -228,10 +231,12 @@
                         font-weight: 400;
                         font-size: 18px;
                         line-height: 30px;
+                        margin-left: 120px;
+
                         /* or 167% */
-
+border:solid red 2px;
                         letter-spacing: -0.015em;
-
+                        min-width: 300px;
                         color: rgba(0, 0, 0, 0.8);
                     }
                 }
@@ -533,6 +538,7 @@
                     margin-bottom: 150px;
                     letter-spacing: -0.008em;
                     color: #f1f1f1;
+                    width: 80%;
                 }
                 .btnPlay {
                     font-size: 12px;
@@ -661,6 +667,7 @@
                         // border: solid red 3px;
                         padding-left: 15px;
                         margin-right: 0;
+                       
                         h1 {
                             padding-bottom: 4px;
                             align-self: center;
@@ -670,7 +677,7 @@
                             font-size: 24px;
                             line-height: 24px;
                             /* identical to box height, or 150% */
-
+margin-left: 0px;
                             letter-spacing: -0.015em;
 
                             color: #000000;
@@ -682,7 +689,7 @@
                             font-size: 18px;
                             line-height: 30px;
                             /* or 167% */
-
+margin-left: 0px;
                             letter-spacing: -0.015em;
 
                             color: rgba(0, 0, 0, 0.8);
@@ -1268,6 +1275,12 @@
                 padding-left: 10%;
                 padding-top: 5px;
                 padding-bottom: 5px;
+                .navbar-brand{
+                    img{
+                        width: 50px;
+                        height: 50px;
+                    }
+                }
                 .nav-link {
                     font-family: "Montserrat";
                     font-style: normal;
@@ -1290,8 +1303,8 @@
                 .caption {
                     font-size: 1rem;
                     line-height: 1rem;
-                    margin-bottom: 60px;
-                    max-width: 300px;
+                    // margin-bottom: 60px;
+                    // max-width: 300px;
                     letter-spacing: -0.005em;
                     color: #f1f1f1;
                 }

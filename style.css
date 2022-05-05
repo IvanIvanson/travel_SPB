@@ -67,7 +67,7 @@
   font-size: 2rem;
   line-height: 2rem;
   text-align: center;
-  align-self: flex-end;
+  align-self: center;
   margin-bottom: 10rem;
   letter-spacing: -0.015em;
   color: #f1f1f1;
@@ -76,10 +76,10 @@
   display: flex;
   align-items: center;
   text-align: center;
-  align-self: flex-end;
+  align-self: center;
   position: absolute;
   padding: 25px 20px 25px 25px;
-  margin-bottom: 15rem;
+  margin-top: 50px;
   border-radius: 50%;
 }
 .wrapper .content .video .btnPlay img {
@@ -165,20 +165,22 @@
 .wrapper .content .card-content {
   display: flex;
   flex-direction: column;
-  width: 80%;
+  width: 100%;
   margin: 0 auto;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 .wrapper .content .card-content .card-top {
   display: flex;
   width: 100%;
   flex-wrap: wrap;
-  padding: 80px;
+  padding-right: 0px;
 }
 .wrapper .content .card-content .card-top .card-img {
   max-width: 50%;
 }
 .wrapper .content .card-content .card-top .card-img img {
-  max-width: 1000px;
+  max-width: 800px;
   min-width: 300px;
 }
 .wrapper .content .card-content .card-top .card-discriotion {
@@ -188,7 +190,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-left: 84px;
 }
 .wrapper .content .card-content .card-top .card-discriotion h1 {
   padding-bottom: 24px;
@@ -198,6 +199,7 @@
   font-weight: 700;
   font-size: 24px;
   line-height: 36px;
+  margin-left: 120px;
   /* identical to box height, or 150% */
   letter-spacing: -0.015em;
   color: #000000;
@@ -208,8 +210,11 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 30px;
+  margin-left: 120px;
   /* or 167% */
+  border: solid red 2px;
   letter-spacing: -0.015em;
+  min-width: 300px;
   color: rgba(0, 0, 0, 0.8);
 }
 .wrapper .content .card-content .card-bottom {
@@ -463,6 +468,7 @@
     margin-bottom: 150px;
     letter-spacing: -0.008em;
     color: #f1f1f1;
+    width: 80%;
   }
   .wrapper .content .video .btnPlay {
     font-size: 12px;
@@ -584,6 +590,7 @@
     font-size: 24px;
     line-height: 24px;
     /* identical to box height, or 150% */
+    margin-left: 0px;
     letter-spacing: -0.015em;
     color: #000000;
   }
@@ -594,6 +601,7 @@
     font-size: 18px;
     line-height: 30px;
     /* or 167% */
+    margin-left: 0px;
     letter-spacing: -0.015em;
     color: rgba(0, 0, 0, 0.8);
   }
@@ -1077,6 +1085,10 @@
     padding-top: 5px;
     padding-bottom: 5px;
   }
+  .wrapper .content .navbar .navbar-brand img {
+    width: 50px;
+    height: 50px;
+  }
   .wrapper .content .navbar .nav-link {
     font-family: "Montserrat";
     font-style: normal;
@@ -1096,8 +1108,6 @@
   .wrapper .content .video .caption {
     font-size: 1rem;
     line-height: 1rem;
-    margin-bottom: 60px;
-    max-width: 300px;
     letter-spacing: -0.005em;
     color: #f1f1f1;
   }
