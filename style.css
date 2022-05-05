@@ -212,7 +212,6 @@
   line-height: 30px;
   margin-left: 120px;
   /* or 167% */
-  border: solid red 2px;
   letter-spacing: -0.015em;
   min-width: 300px;
   color: rgba(0, 0, 0, 0.8);
@@ -784,6 +783,37 @@
   }
 }
 @media (max-width: 770px) {
+  .wrapper .content .video video {
+    width: 100%;
+    height: auto;
+  }
+  .wrapper .content .video img {
+    width: 100%;
+  }
+  .wrapper .content .video .caption {
+    font-size: 1rem;
+    line-height: 1rem;
+    font-size: 18px;
+    letter-spacing: -0.005em;
+    color: #f1f1f1;
+  }
+  .wrapper .content .video .btnPlay {
+    font-size: 12px;
+    line-height: 15px;
+    padding: 10px 10px 10px 13px;
+    margin-bottom: 86px;
+  }
+  .wrapper .content .video .btnPlay img {
+    width: 20px;
+    height: 20px;
+  }
+  .wrapper .content .video .btnVideo {
+    font-size: 12px;
+    line-height: 15px;
+    padding: 5px 30px 7px 30px;
+    margin-bottom: 26px;
+    border-radius: 6px;
+  }
   .wrapper .content .snap .row .col-right {
     padding: 0;
     outline: none;
@@ -840,7 +870,7 @@
     font-family: "Montserrat", sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 24px;
+    font-size: 20px;
     line-height: 24px;
     /* identical to box height, or 150% */
     letter-spacing: -0.015em;
@@ -1108,6 +1138,7 @@
   .wrapper .content .video .caption {
     font-size: 1rem;
     line-height: 1rem;
+    font-size: 18px;
     letter-spacing: -0.005em;
     color: #f1f1f1;
   }
